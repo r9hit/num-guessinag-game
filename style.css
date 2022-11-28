@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
+    font-family: 'Arvo', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 82, 97)
+}
+
+.container {
+    width: 80%;
+    height: 90vh;
+    margin-inline: auto;
+    background-color: rgb(71, 82, 97);
+    align-items: center;
+}
+
+.h1 {
+
+    font-size: 50px;
+    margin: 20px auto;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px 10px #8a6161;
+}
+
+.h1:hover {
+    transition: 0.6s ease-in;
+    font-style: italic;
+    background-color: rgb(100, 116, 129);
+    color: rgb(37, 14, 14);
+}
+
+.para1 {
+    margin-top: 100px;
+    margin-inline: auto;
+    background-color: rgb(71, 82, 97);
+
+}
+
+.para2 {
+    margin-top: 10px;
+    margin-inline: auto;
+    background-color: rgb(71, 82, 97);
+}
+
+.input-box {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.input {
+    font-size: 30px;
+    border: none;
+    background-color: bisque;
+}
+
+.btn {
+    border: none;
+    font-size: 30px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 161);
+}
+
+
+.btn:hover {
+    color: antiquewhite;
+    background-color: rgb(35, 35, 155);
+}
+
+.btn:click {
+    font-style: italic;
+    background-color: rgb(0, 0, 255);
+}
+
+.para3 {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
