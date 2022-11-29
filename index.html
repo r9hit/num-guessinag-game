@@ -14,17 +14,23 @@
 
         <h1 class="h1">NUMBER GUESSING GAME</h1>
         <p class="para1">Have some fun...</p>
-        <p class="para2">Choose any number</p>
-
-
+        <p class="para2">Choose Any Number</p>
+        <p id="output"></p>
         <div class="input-box">
             <input class="input" id="input" type="number">
             <button class="btn" id="btn" type="submit">Check</button>
         </div>
+        <p class="para3" id="hint">Hint : Number is somewhere between in 1 to 100 </p>
 
-        <p class="para3">Hint : Number is somewhere between in 1 to 100 </p>
-        <p id="output"></p>
 
+        <button class="btn" id="nsButton">Narrow your search</button>
+        <div class="narrowSearch input-box" id="narrowSearch">
+            <p>Narrow your range</p>
+            <input class="input" type="number" placeholder="Starting range" id="range1">
+            <p>to</p>
+            <input class="input" type="number" placeholder="Ending range" id="range2">
+            <button class="btn" id="set">Set</button>
+        </div>
 
 
     </div>
@@ -35,5 +41,3 @@
     </script>
 
 </body>
-
-</html>
